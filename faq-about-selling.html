@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Selling - M-Boss</title>
+  <link rel="stylesheet" href="styles/faq-styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400;500;600;700&family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles/home.style.css">
+  <script src="https://kit.fontawesome.com/807f2d6ec6.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <!-- navbar -->
+    <div class="sticky-top navigation">
+      <nav class="navbar navbar-expand-lg m-0 p-0">
+        <div class="container-fluid">
+          <a class="navbar-brand pt-0 pt-sm-0 pt-md-4 pt-lg-4 me-5 nav-logo" href="home.html">
+            <img src="./images/M-BOSS-Logo-crop.png" style="width: 50px;" alt="">
+            M BOSS
+          </a>
+
+          <button class="btn toggle-button pt-md-4 pt-lg-4 d-block d-sm-block d-md-block d-lg-none" type="button"
+            data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i
+              class="fa-solid fa-bars"></i></button>
+
+          <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+            id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+            <div class="offcanvas-header">
+              <div></div>
+              <button type="button" class="btn-close btn-close-white float-end" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body d-lg-flex justify-content-center">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link pt-4 me-5" href="home.html">HOME</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle pt-4 me-5" id="serviceDropdown" href="#">SERVICE </a>
+                  <div class="dropdown-menu" aria-labelledby="serviceDropdown">
+                    <a class="dropdown-item px-4 py-3" href="#">INVOICE DISCOUNTING</a>
+                    <a class="dropdown-item px-4 py-3" href="#">PO DISCOUNTING</a>
+                    <a class="dropdown-item px-4 py-3" href="#">BUY NOW / PAY LATER</a>
+                  </div>
+                </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle pt-4 me-5" id="aboutDropdown" href="#">ABOUT </a>
+                  <div class="dropdown-menu" aria-labelledby="aboutDropdown">
+                    <a class="dropdown-item px-4 py-3" href="">COMAPNY INFORMATION</a>
+                    <a class="dropdown-item px-4 py-3" href="">TEAM</a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle pt-4 me-5" id="faqDropdown">FAQ </a>
+                  <div class="dropdown-menu" aria-labelledby="faqDropdown">
+                    <a class="dropdown-item px-4 py-3" href="">ABOUT SELLING</a>
+                    <a class="dropdown-item px-4 py-3" href="">ABOUT BUYING</a>
+                    <a class="dropdown-item px-4 py-3" href="">GENERAL</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link pt-4" href="contact.html">CONTACT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="d-none d-sm-none d-md-none d-lg-block pt-3 media-icon">
+
+            <i class="fa-brands fa-square-facebook me-3"></i>
+            <i class="fa-brands fa-linkedin"></i>
+          </div>
+        </div>
+
+      </nav>
+    </div>
+  </header>
+  <main class="px-3 my-5">
+    <h1 class="header fw-semibold">SME'S FAQ</h1>
+    <div>
+      <h3 class="sub-header fw-semibold mt-5 border-bottom pb-5">GENERAL</h3>
+      <div class="questions fw-light" id="general">
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#general-1" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div class="question">Is M Boss registered by any government body?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary show" id="general-1" data-bs-parent="#general">
+            <p class="pt-4">
+              Yes, M Boss Technologies Co., Ltd. is a registered corporation at DICA that operates as an online
+              marketplace for receivable invoices.
+            </p>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#general-2" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>How does it work?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="general-2" data-bs-parent="#general">
+            <p class="pt-4">There is a one-time registration, Know Your Customer (KYC) process which is very similar to
+              banks.
+              Once the registration process is completed, you are able to post the invoices in M Boss’s platform.
+              M Boss does its due diligence of confirming the validity of the invoices posted.
+              Once approved, your invoice will be posted on our online platform and buyers make bids on an online
+              auction.
+              After the auction you can request to get your funds.</p>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#general-3" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>How do we know if our business is eligible for M Boss’s services?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="general-3" data-bs-parent="#general">
+            <p class="pt-4">So long as your company fits the following criteria:</p>
+            <ol class="ps-3">
+              <li>Legally registered in Myanmar (Corporation / Partnership / Sole Proprietor).</li>
+              <li>The company engages in business-to-business, service now pay later model.</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#general-4" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>What invoice amounts will be accepted?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="general-4" data-bs-parent="#general">
+            <p class="pt-4">M Boss will accept an invoice with at least a minimum value of MMK 1,000,000.</p>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#general-5" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>What is the discount rate? </div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="general-5" data-bs-parent="#general">
+            <p class="pt-4">
+              The discount rate is based on the payment behavior and credit rating of your clients through a proprietary
+              algorithm that measures the risk of delay and default of payments.
+              It also takes into account the financial standing of your client and how long the invoice has been
+              outstanding.
+              M Boss asks for an average discount rate of 2%-5% of the invoice face value per 30-day cycle.
+              For example, if the maturity date/payment term of your invoice is scheduled to be paid in 60 days, then
+              the
+              discount rate will be multiplied by 2.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h3 class="sub-header fw-semibold mt-5 border-bottom pb-5">APPLICATION</h3>
+      <div class="questions fw-light" id="application">
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#application-1" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>How do I sign up as a SME? </div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary show" id="application-1" data-bs-parent="#application">
+            <ol class="ps-3 pt-4">
+              <li>Sign up in M Boss’s platform: <a href="#" class="text-black no-underline">Link</a></li>
+              <li>Verify your email</li>
+              <li>Complete your ‘Know-Your-Customer’ (KYC) requirements</li>
+              <li>Entering Memorandum of Agreement with M Boss</li>
+              <li>Once your account is verified, you can start uploading your invoices for invoice selling at a
+                discounted price.
+              </li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#application-2" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>What are the KYC requirements? </div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="application-2" data-bs-parent="#application">
+            <ol class="pt-4">
+              <li>Personal Information</li>
+              <li>Business Information</li>
+              <li>Valid Identity
+                <ul class="ps-1">
+                  <li>Soft copy of NRC / Passport</li>
+                  <li>Soft copy of NRC / Passport of authorized persons</li>
+                </ul>
+              </li>
+
+              <li class="mt-4">At least one (1) latest Billing Statement billed to the Company Address
+                <ul class="ps-1">
+                  <li>Utility Bills (i.e. Electric, Water, etc.)</li>
+                  <li>Copy of Company Bank Book / Bank Statement</li>
+                </ul>
+              </li>
+
+              <li class="mt-4">Business Documents
+                <ul class="ps-1">
+                  <li>Company Registration Card</li>
+                  <li>Articles of Association (if applicable)</li>
+                  <li>Memorandum of Association</li>
+                  <li>Form 6, Form 26</li>
+                  <li>BOD resolution to open platform trading account and appointment of an authorized person to perform
+                    all action relating with invoice selling in M Boss’s platform (stating NRC number)</li>
+                  <li>*For Import/Export business, licenses of import/export are required</li>
+                </ul>
+              </li>
+
+              <p class="text-red mt-4 fst-italic">*We only accept JPEG, PNG, and PDF file type with a maximum of 5MB
+                per file.</p>
+            </ol>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#application-3" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>Which banks are accepted? </div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="application-3" data-bs-parent="#application">
+            <ul class="no-bullet-list ps-1 pt-4">
+              <li>For fund deposit - All registered banks and wallets in Myanmar. </li>
+              <li>For fund release/disbursement - All registered banks and wallets in Myanmar.</li>
+              <li class="fst-italic text-red">**There may be some banking charges depend on your selected banks.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h3 class="sub-header fw-semibold mt-5 border-bottom pb-5">TRANSACTION</h3>
+      <div class="questions fw-light" id="transaction">
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#transaction-1" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>How much of my invoice will be supported?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse  text-secondary show" id="transaction-1" data-bs-parent="#transaction">
+            <p class="pt-4">You can sell 100% of your invoice - less the any tax (i.e. Commercial Tax, Withholding Tax,
+              etc.). We
+              only
+              support the face value of the invoice, hence any Tax amount which will be collected from your client will
+              be
+              credited to you on the collection date.</p>
+            <p class="text-red fst-italic">The responsibility of related tax payments which arise from your original
+              transaction with your client is
+              rest on you.</p>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#transaction-2" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>How soon will my invoice be put up for sale from invoice upload? </div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="transaction-2" data-bs-parent="#transaction">
+            <p class="pt-4">
+              Invoice approval and validation usually take about 24 hours (during business days). Upon approval, your
+              invoice will be scheduled for auction equating to a total of 2 days. Once an invoice has been awarded to
+              the
+              winning buyer, the funds will automatically be reflected in your e-wallet and it is ready for a withdrawal
+              request.
+            </p>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#transaction-3" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>How do you compute for the discount rate?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="transaction-3" data-bs-parent="#transaction">
+            <p class="pt-4">
+              You give us a list of your clients and we will check the credibility of your clients. This means company
+              background research. The initial discount will be based on your clients (1) Financial Standing, (2) Info
+              in
+              Supplier Payments - how long do they actually pay, (3) Size of your invoice. The higher the financial
+              standing, the lower the rate and vice versa. If your client on average pays 30 days after the due date,
+              we’ll also add 30 days on top of your invoice due date. All of this is factored in to give you an initial
+              discount rate for your invoice.
+            </p>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#transaction-4" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>Are the discount rates fixed?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="transaction-4" data-bs-parent="#transaction">
+            <p class="pt-4">
+              The system will only be providing initial rates because during the Invoice Auction, invoice buyers will be
+              bidding down on your invoices. So for example you may initially get a total discount of 5% but through the
+              bidding system it has potential to decrease to 4% or 3%.
+            </p>
+
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#transaction-5" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>Are there any fees?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="transaction-5" data-bs-parent="#transaction">
+            <p class="pt-4">
+              We will deduct an invoice posting and processing fee of 2% of the total face value of the invoice once
+              your
+              invoice has been sold and any applicable taxes.
+            </p>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#transaction-6" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>How do you verify the invoices?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="transaction-6" data-bs-parent="#transaction">
+            <p class="pt-4">Verifying your invoice will take in 3 forms:</p>
+            <ol class="ps-3">
+              <li>We directly contact your client - by means of calling or sending an email.</li>
+              <li>You send an email confirmation for the invoices to your client and put BCC us in the email exchanges.
+              </li>
+              <li>Providing us with supporting documents (a) Contract with your client, (b) Receiving copies /stamped
+                invoice
+                from your client, (c) Purchase order from your client, (d) Any evidence that can support that the
+                service/product is completed.</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#transaction-7" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>What exactly are M Boss asking from your client?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="transaction-7" data-bs-parent="#transaction">
+            <p class="pt-4">We’ll resend them an invoice copy and verify the details:</p>
+            <ol class="ps-3 letter-list">
+              <li>Invoice Amount</li>
+              <li>Applicable taxes</li>
+              <li>Date of Collection</li>
+            </ol>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#transaction-8" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>Are there any legal implications to selling an invoice? </div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="transaction-8" data-bs-parent="#transaction">
+            <p class="pt-4">
+              When you have successfully sold your invoice, you are legally transferring the invoice ownership from you
+              to
+              the buyer of the invoice (through the Standard Terms and Conditions of Sales and Mutual Agreement), you
+              are
+              also transferring the risk of late payments. This also means that your invoice buyer will have the right
+              to
+              collect from your client if it passes the expected date of payment.
+            </p>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#transaction-9" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>How do I make a withdrawal?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="transaction-9" data-bs-parent="#transaction">
+            <ol class="ps-3 pt-4">
+              <li>Log in to your account</li>
+              <li>In your sidebar, click ‘Withdraw’ menu</li>
+              <li>Fill in the necessary details</li>
+              <li>Click ‘Continue’ button</li>
+              <li>A confirmation will prompt you that the request is successful.</li>
+            </ol>
+
+            <p class="text-red fst-italic">*The maximum amount for withdrawal is MMK 100,000,000.00. For withdrawal
+              requests more than MMK
+              100,000,000.00, you can make a separate ticket.</p>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#transaction-10" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>How fast is fund disbursement upon request for a withdrawal?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="transaction-10" data-bs-parent="#transaction">
+            <p class="pt-4">
+              Upon withdrawal request, a transfer from your e-wallet to your company bank account will take 1 to 3
+              business working days depending on your selected bank. (to include bank clearings).
+            </p>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#transaction-11" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>What happens when my Invoice is not sold?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="transaction-11" data-bs-parent="#transaction">
+            <p class="pt-4">
+              In the unlikely event that your invoice is not successfully bought, you may choose resell that invoice for
+              the next auction or (or you may withdraw your invoices from the platform) it goes through the normal terms
+              of payment with your client.
+            </p>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#transaction-12" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>Can we apply for another invoice sale if we already have an active invoice sale with M Boss?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="transaction-12" data-bs-parent="#transaction">
+            <p class="pt-4">Yes, you may apply for a subsequent invoice sale with M Boss as long as it is within your
+              transaction cap.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <h3 class="sub-header fw-semibold mt-5 border-bottom pb-5">REPAYMENT & COLLECTION </h3>
+      <div class="questions fw-light" id="repayment">
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#repayment-1" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>Who collects payment for the invoices I have sold in the M Boss Platform?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary show" id="repayment-1" data-bs-parent="#repayment">
+            <p class="pt-4">
+              M Boss will collect the payment on behalf of the invoice buyer.
+              M Boss’s collection team will follow up on the payments of your clients and we will collect on your
+              behalf.
+              All you have to do is to authorize us to collect from your client. Given that you have already assigned
+              your
+              invoice to the buyer, the buyer now takes on the risks of late payment. And since we are directly
+              collecting
+              the whole amount from your client, we will remit the tax payment paid by your client to you and we will
+              hold
+              only the invoice face value.
+            </p>
+            <ul class="ps-3 mt-4">
+              <li>Cash collection requires only an authorization letter from the SME.</li>
+              <li>If your clients make bank transfers directly to your bank account, you have to immediately remit the
+                repayment amount value back to the segregated account in within 24 hours. If you fail to remit within
+                the
+                same date of funds receiving from your client, you will be imposed penalties in daily penalties</li>
+              <li>Cheque Payments collection or Cash collection requires an authorization letter from the SME and a
+                cheque
+                from the SME addressing to M Boss’s segregated account</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#repayment-2" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>What happens when my client fails to pay on the due date of the invoice?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="repayment-2" data-bs-parent="#repayment">
+            <p class="pt-4">
+              M Boss uses a proprietary algorithm to measure the risk of delay and default of payments. Our company
+              considers previous payment behavior and incorporates in the expected days of repayment and collection. If
+              your client on average pays 30 days after the due date, we’ll also add 30 days on top of your invoice due
+              date. This will now be the adjusted due date.
+            </p>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#repayment-3" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>What happens when my client fails to pay on the adjusted due date of the invoice? </div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="repayment-3" data-bs-parent="#repayment">
+            <p class="py-4">
+              Selling your invoice means assigning its risks to its buyers. You’ll be asked to assist in collecting from
+              your client from time to time and if needed but it is ultimately the Buyer’s responsibility to follow up
+              payment.
+            </p>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#repayment-4" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>What is the standard process of collecting payments from the Payors?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="repayment-4" data-bs-parent="#repayment">
+            <p class="pt-4">
+              M Boss introduces itself as your 3rd party collections agency. M Boss gives out reminders 5 days before
+              the
+              due date. On the due date of the invoice, and once the invoice falls delinquent we do a daily reminder
+              until
+              we have received a pay date promise from your clients. This is all done in the most respectful manner as
+              our
+              value proposition to our SMEs is making sure their business relationship with their clients improves with
+              M
+              Boss.
+            </p>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#repayment-5" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>Who can be the buyers of my invoices</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="repayment-5" data-bs-parent="#repayment">
+            <p class="pt-4">
+              Your invoices will be bought by investor who tend to be high net worth individuals or institutional
+              investors, or hedge funds.
+            </p>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#repayment-6" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>Will my clients know if I have sold the invoice?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="repayment-6" data-bs-parent="#repayment">
+            <p class="pt-4">
+              Yes, your clients related with the invoices that you are going to sell may be aware that you have sold the
+              invoices as we have to ask your clients as a process of invoice verification for your invoices.
+            </p>
+          </div>
+        </div>
+
+        <div class="border-bottom py-4">
+          <a class="text-black no-underline" data-bs-toggle="collapse" href="#repayment-7" role="button"
+            aria-expanded="false" aria-controls="collapseExample">
+            <div class="question d-flex flex-row justify-content-between">
+              <div>How can we contact M Boss for additional questions and concerns?</div>
+              <div class="text-primary">+</div>
+            </div>
+          </a>
+          <div class="answers collapse text-secondary" id="repayment-7" data-bs-parent="#repayment">
+            <p class="pt-4">
+              You can email us at info@M Boss.co for any queries and our team will get back to you within 1 hours
+              (between
+              9:00 AM - 6:00 PM of a business day Yangon Time).
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <!-- footer -->
+    <div class="footer-container" style="margin-top: -6px;">
+      <div class="d-flex justify-content-center">
+
+        <div class="row footer-content">
+          <div class="col-12 col-md-12 col-lg-5 pe-lg-5 pe-lg-5">
+            <div class="d-flex justify-content-center">
+              <img src="./images/M-BOSS-Logo-crop.png" style="width: 150px;" alt="">
+            </div>
+            <div class="d-flex justify-content-center">
+              <div class="border rounded rounded-circle me-3" style="width: 50px; height: 50px;">
+                <!-- fb icon -->
+                <div class="fb-icon d-flex justify-content-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+                    class="bi bi-facebook" viewBox="0 0 16 16">
+                    <path
+                      d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                  </svg>
+                </div>
+
+              </div>
+
+
+              <!-- linkedin icon -->
+
+              <div class="border rounded rounded-circle" style="width: 50px; height: 50px;">
+                <!-- fb icon -->
+                <div class="fb-icon d-flex justify-content-center">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" fill="currentColor"
+                    class="bi bi-linkedin" viewBox="0 0 16 16">
+                    <path
+                      d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+                  </svg>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="company-tabs col-12 col-md-12 col-lg-7">
+            <div class="row">
+              <div class="col-12 col-md-12 col-lg-4 me-5">
+                <div class="d-flex justify-content-center">
+                  <ul class="footer-list">
+                    <li class="footer-header">COMPANY</li>
+                    <li><a href=""><i class="fa fa-chevron-right me-2 mb-4 mt-4"></i> Home</a></li>
+                    <li><a href=""><i class="fa fa-chevron-right me-2 mb-4"></i> Services</a></li>
+                    <li><a href=""><i class="fa fa-chevron-right me-2 mb-4"></i> About</a></li>
+                    <li><a href=""><i class="fa fa-chevron-right me-2 mb-4"></i> FAQ</a></li>
+                    <li><a href=""><i class="fa fa-chevron-right me-2 mb-4"></i> Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-12 col-md-12 col-lg-5 ms-4">
+                <div class="d-flex justify-content-center">
+                  <ul class="contact">
+                    <div class="footer-header mb-3">CONTACT</div>
+                    <li class="contact-info mb-3">09-888-828--18</li>
+                    <li class="contact-info mb-3">info@mboss.finance</li>
+                    <li class="contact-info mb-2">AlanpyaPagodaRoad,</li>
+                    <div class="contact-info mb-2">MingalarTaungNyunt,</div>
+                    <div class="contact-info">Yangon,Myanmar</div>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <!-- copyright -->
+    <div class="copy">
+      <div class="d-flex justify-content-center pt-4 copy-text">
+        Copyright &copy 2023 All rights reserved!
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

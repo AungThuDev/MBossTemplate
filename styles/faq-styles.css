@@ -1,0 +1,71 @@
+main {
+  max-width: 800px;
+  margin: auto;
+}
+
+.header {
+  font-size: 60px;
+  font-family: Josefin Sans, sans-serif;
+}
+
+.sub-header {
+  font-size: 40px;
+}
+
+@media screen and (max-width: 600px) {
+  .header {
+    font-size: 41px;
+  }
+
+  .sub-header {
+    font-size: 32px;
+  }
+}
+
+.questions {
+  font-size: 18px;
+  font-family: Heebo, sans-serif;
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.answers {
+  font-size: 16px;
+  font-family: Heebo, sans-serif;;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+.no-bullet-list {
+  list-style-type: none;
+}
+
+.letter-list {
+  list-style-type: lower-alpha;
+}
+
+.question {
+  transition: all 0.3s ease;
+}
+
+.question:hover {
+  color: rgb(86, 84, 84);
+}
+
+/* buying */
+
+.funder {
+  font-size: 40px;
+  font-family: Josefin Sans, sans-serif;
+  color: green;
+}
+
+.text-red {
+  color: red;
+}
