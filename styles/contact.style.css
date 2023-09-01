@@ -1,0 +1,24 @@
+.yellow-circle{
+    z-index: 1003;
+    width: 100px;
+}
+
+.inner-icon{
+    position: absolute;
+    z-index: 1004;
+    font-size: 30px;
+}
+
+.home-text{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+}
+
+.home-text p{
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+    color:  rgb(124, 135, 140);
+}
+.map{
+    margin-top: 150px;
+}
